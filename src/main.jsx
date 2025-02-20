@@ -6,9 +6,10 @@ import { BrowserRouter } from 'react-router-dom'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-      <React.StrictMode>
+  <React.StrictMode>
     <BrowserRouter>
       <App />
+      <SpeedInsights/>
     </BrowserRouter>
   </React.StrictMode>,
 )
